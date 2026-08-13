@@ -1,0 +1,12 @@
+{
+  // Profile READMEs commonly use inline HTML (comments, tags), emoji, and long
+  // lines, so a few default rules are relaxed to fit that content.
+  "config": {
+    "default": true,
+    "MD013": false, // line length
+    "MD033": false, // inline HTML
+    "MD041": false, // first line in file should be a top-level heading
+    "MD004": { "style": "dash" }
+  },
+  "ignores": ["node_modules"]
+}
